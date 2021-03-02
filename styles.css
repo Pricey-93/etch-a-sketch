@@ -11,6 +11,18 @@ body {
     justify-content: center;
     align-items: center;
 }
+#control-container {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.btn {
+    width: 10%;
+    height: 50%;
+    margin-bottom: 10px; 
+}
 #container {
     width: 50%;
     height: 50%;
@@ -20,9 +32,5 @@ body {
     border: 2px solid black;
 }
 .div-squares {
-    display: inline-block;
     border: 1px solid black;
-}
-.div-squares:hover {
-    background-color: black;
 }
