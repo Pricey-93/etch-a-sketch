@@ -17,20 +17,31 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    background-color: rgb(236, 231, 223);
+    border-radius: 10px;
 }
 .btn {
     width: 10%;
     height: 50%;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+[rgb-active] {
+    background-color: rgb(117, 180, 117);
+    color: rgba(255, 255, 255, 0.884);
 }
 #container {
     width: 50%;
     height: 50%;
+    padding: 2px;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
     border: 2px solid black;
+    border-radius: 10px;
 }
 .div-squares {
     border: 1px solid black;
+    border-radius: 5px;
 }
