@@ -45,11 +45,11 @@ addGlobalEventListener("mouseover", ".div-squares", (e) => {
         e.target.style.backgroundColor = "black";
 });
 addGlobalEventListener("click", "#dimensions-btn", (e) => {
-    let input = prompt("Enter a number between 1-64");
+    let input = prompt("Enter a number between 1-100");
     let valid = false;
     while (!valid) {
         if (isNaN(input) || input < 1 || input > 100)
-            input = prompt("Input not valid, enter a number between 1-64");
+            input = prompt("Input not valid, enter a number between 1-100");
         else
             valid = true;
     }
